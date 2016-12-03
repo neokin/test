@@ -7,6 +7,9 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 public class WallsBall extends ApplicationAdapter {
+	public static final int WIDTH = 500;
+	public static final int HEIGTH = 800;
+	public static final String TITLE = "WALL_BALL";
 	SpriteBatch batch;
 	Texture img;
 	

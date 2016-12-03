@@ -7,6 +7,9 @@ import com.kirill.game.WallsBall;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
+		config.width = WallsBall.WIDTH;
+		config.height = WallsBall.HEIGTH;
+		config.title = WallsBall.TITLE;
 		new LwjglApplication(new WallsBall(), config);
 	}
 }
